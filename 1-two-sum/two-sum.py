@@ -14,6 +14,5 @@ class Solution(object):
 
         for i in range (0, len(nums)):
             num = nums[i]
-            print("parto con " + str(num))
             if (target - num in dictionary and dictionary[target - num] != i):
                 return i, dictionary[target - num]
