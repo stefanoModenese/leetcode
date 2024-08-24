@@ -1,3 +1,3 @@
 # Leetcode problems
 
-## Problems I solve to train my skills
+Problems I solve to train my skills
