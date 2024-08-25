@@ -5,11 +5,6 @@
 #         self.next = next
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
 
         num1 = ""
         num2 = ""
@@ -21,9 +16,6 @@ class Solution(object):
         while(l2 != None):
             num2 = str(l2.val) + num2
             l2 = l2.next
-        
-        print(num1)
-        print(num2)
 
         res = int(num1) + int(num2)
         res = str(res)
@@ -33,7 +25,6 @@ class Solution(object):
         print(first)
 
         for c in reversed(res[:len(res)-1]):
-            print c
             l3.next = ListNode(c)
             l3 = l3.next
 
