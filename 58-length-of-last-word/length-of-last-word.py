@@ -3,5 +3,5 @@ class Solution(object):
         
         words = s.split()
 
-        return len(words[len(words)-1])
+        return len(words[-1])
         
